@@ -10,7 +10,7 @@
         align-items: center;
       }
       table{
-        width: 500px;
+        width: 1000px;
         border-collapse: collapse;
         position: relative;
       }
@@ -19,14 +19,25 @@
         padding: 10px;
         padding-right: 100px;
       }
+      tfoot{
+        background-color: gray;
+      }
+      caption{
+        background-color: lightgray;
+        padding: 10px;
+        
+      }
     </style>
   </head>
   <body>
     <table align="center">
-      <caption>
-        População dos Estados Brasileiros - 2024
-      </caption>
+      
       <thead >
+        <caption>
+          População dos Estados Brasileiros - 2024
+        </caption>
+      </thead>
+      <tbody>
         <tr>
           <th>Estado</th>
           <th>População</th>
@@ -43,93 +54,88 @@
         <td> <i>'Italico'</i> </td>
         </tr>
         <tr>
-        <td>Amapá</td>
+        <td><u>Amapá</u></td>
         <td>877.613</td>
-        <td>'Texto Sublinhado'</td>
+        <td><u>'Texto Sublinhado'</u></td>
         </tr>
         <tr>
-        <td>Amazonas</td>
-        <td>4.269.995</td>
-        <td>'texto riscado' e 'texto sublinhado'</td>
+        <td><u>Amazonas</u></td>
+        <td><s>4.269.995</s></td>
+        <td><u>'texto riscado'</u> e <s>'texto sublinhado'</s></td>
         </tr>
         <tr>
-        <td>Bahia</td>
+        <td><sup>Bahia</sup></td>
         <td>14.141.626</td>
-        <td>'Texto sobrescrito'</td>
+        <td><sup>'Texto sobrescrito'</sup></td>
         </tr>
         <tr>
-        <td>CE</td>
+        <td><abbr>CE</abbr></td>
         <td>9.240.580</td>
-        <td>'Abreviação'</td>
+        <td><abbr>'Abreviação'</abbr></td>
         </tr>
         <tr>
-        <td>Distrito Federal</td>
+        <td><strong>Distrito Federal</strong></td>
         <td>3.098.883</td>
-        <td>'Texto em Negrito</td>
+        <td>'<strong>Texto em Negrito</strong>'</td>
         </tr>
         <tr>
-        <td>Espirito Santo</td>
+        <td><q>Espirito Santo</q></td>
         <td>4.108.508</td>
-        <td>'Citação curta'</td>
+        <td>'<q>Citação curta</q>'</td>
         </tr>
         <tr>
-        <td>Goiás</td>
+        <td><cite>Goiás</cite></td>
         <td>7.206.589</td>
-        <td>'Citação de fonte'</td>
+        <td>'<cite>Citação de fonte</cite>'</td>
         </tr>
         <tr>
-        <td>Maranhão</td>
+        <td><code>Maranhão</code></td>
         <td>6.775.805</td>
-        <td>'Texto monoespaçado'</td>
+        <td>'<code>Texto monoespaçado</code>'</td>
         </tr>
         <tr>
-        <td>Mato Grosso</td>
-        <td>ex</td>
-        <td>ex</td>
+        <td><pre>Mato Grosso</pre></td>
+        <td>3.658.813</td>
+        <td>'<pre>texto pré formatado</pre>'</td>
         </tr>
         <tr>
-        <td>ex</td>
-        <td>ex</td>
-        <td>ex</td>
+        <td><u>Paraiba</u></td>
+        <td>4.059.905</td>
+        <td>'<u>texto subscrito</u>'</td>
         </tr>
         <tr>
-        <td>ex</td>
-        <td>ex</td>
-        <td>ex</td>
+        <td><blockquote>Rio de Janeiro</blockquote></td>
+        <td>16.054.524</td>
+        <td><blockquote>Citação em bloco</blockquote></td>
         </tr>
         <tr>
-        <td>ex</td>
-        <td>ex</td>
-        <td>ex</td>
+        <td><strong>Rio Grande do Sul</strong></td>
+        <td>10.882.965</td>
+        <td>'<strong>Negrito</strong>'</td>
         </tr>
         <tr>
-        <td>ex</td>
-        <td>ex</td>
-        <td>ex</td>
+        <td><i>Rondônia</i></td>
+        <td>1.616.479</td>
+        <td>'<i>Italico</i>'</td>
         </tr>
         <tr>
-        <td>ex</td>
-        <td>ex</td>
-        <td>ex</td>
+        <td><mark>Roraima</mark></td>
+        <td>636.707</td>
+        <td>'<mark>Texto Destacado</mark>'</td>
         </tr>
         <tr>
-        <td>ex</td>
-        <td>ex</td>
-        <td>ex</td>
+        <td><abbr>TO</abbr></td>
+        <td>1.607.363</td>
+        <td>'<abbr>Abreviação</abbr>'</td>
         </tr>
+      </tbody>
+      <tfoot>
         <tr>
-        <td>ex</td>
-        <td>ex</td>
-        <td>ex</td>
+          <td><strong>Total da população estimada:</strong></td>
+          <td><strong>Soma total</strong></td>
+          <td>Realizar a soma das colunas</td>
         </tr>
-        <tr>
-        <td>ex</td>
-        <td>ex</td>
-        <td>ex</td>
-        </tr>
-      </thead>
-      <tbody></tbody>
-      <tfoot></tfoot>
+      </tfoot>
     </table>
   </body>
 </html>
